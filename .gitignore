@@ -132,3 +132,4 @@ dmypy.json
 /.idea/
 /data/
 /oas_erf/notebooks/comparison_measurements/ATom_nav_1613/
+/SECT_SENS.iml

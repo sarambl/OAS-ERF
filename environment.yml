@@ -1,0 +1,24 @@
+name: env_oas_erf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy
+  - cftime
+  - conda
+  - conda-build
+  - jupyterlab
+  - jupytext
+  - matplotlib
+  - nodejs
+  - numpy
+  - pandas
+  - conda-forge::pyngl
+  - scipy
+  - seaborn
+  - pip
+  - xarray
+  - pip:
+    - jupyter
+prefix: /persistent01/miniconda3/envs/env_sec_v2
+

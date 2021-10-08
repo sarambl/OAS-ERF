@@ -28,7 +28,12 @@ pip install  ebas_io-3.6.1-py3-none-any.wh
 ```
 
 ## Download data:
+Download data from:
 
+
+For comparison to observations, download the following dataset: 
+
+Blichner, S. M. (2020).Data for: Implementing a sectional scheme for early aerosol growth from new particle formation in the Norwegian Earth System Model v2: comparison to observations and climate impacts [Data set]. Norstore. https://doi.org/10.11582/2020.00056
 
 ## Edit settings and paths: 
 Edit paths at the top of [oas_erf/constants.py](oas_erf/constants.py). 
@@ -43,7 +48,9 @@ Run for correct time period (edit "startyear" and "startyear" in script) and rel
 ```bash
 cd oas_erf/preprocess/
 python Nd.py
+python Nd_short.py
 python preproc_maps.py
+python preproc_maps_short.py
 ```
 
 ### Run notebooks:

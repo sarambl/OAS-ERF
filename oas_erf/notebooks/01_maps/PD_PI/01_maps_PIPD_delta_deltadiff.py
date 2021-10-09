@@ -86,7 +86,6 @@ cases = cases_orig + cases_sec
 version = 'pi_pd_diff'
 plot_path = get_plotpath('maps')
 filen_base = plot_path + '/%s' % version
-# print(plot_path)
 make_folders(plot_path)
 
 # %%

@@ -57,6 +57,13 @@ np.seterr(divide='ignore', invalid='ignore', )
 
 
 # %%
+from useful_scit.imps import *
+
+# %%
+from oas_erf.constants import project_base_path, project_name
+from pathlib import Path
+
+# %%
 M = 0.02896
 P0 = 1013.25
 R = 8.3143
@@ -109,7 +116,16 @@ try:
 except:
     pass
 # %% [markdown]
+# ## Download data:
+
+# %% [markdown]
+# Download data from https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1581 and place in data folder:
 #
+
+# %%
+base_dir = Path(project_base_path+project_name)
+
+print(base_dir/'data'/'ATom_merge_1581')
 
 # %%
 p_level = 1013.
@@ -209,13 +225,6 @@ for case in cases:
                                      '.h0.',
                                      'NorESM')
     dic_full[case] = input_ds
-
-# %%
-from useful_scit.imps import *
-
-# %%
-from oas_erf.constants import project_base_path, project_name
-from pathlib import Path
 
 # %%
 base_dir = Path(project_base_path+project_name)

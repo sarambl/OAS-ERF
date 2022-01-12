@@ -190,7 +190,7 @@ filen_base
 from oas_erf.util.slice_average.avg_pkg import yearly_mean_dic
 
 # %%
-varl = ['NCONC01','N50','N60','T','lat_wg']#,'N60-500']#,'Z3']#,'N60']
+varl = ['NCONC01','N50','N60','T','lat_wg'] #,'N60-500']#,'Z3']#,'N60']
 
 # %%
 cases
